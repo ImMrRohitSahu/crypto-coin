@@ -16,19 +16,19 @@ const HeroBanner = () => {
   return (
         <Slider {...settings} className="carousal">
         <div className="image-div">
-            <img src="src/assets/bannerOne.jpg" alt="Banner Image" />
+            <img src="./assets/bannerOne.jpg" alt="Banner Image" />
           </div>
           <div className="image-div">
-            <img src="src/assets/bannerTwo.jpg" alt="Banner Image" />
+            <img src="./assets/bannerTwo.jpg" alt="Banner Image" />
           </div>
           <div className="image-div">
-            <img src="src/assets/bannerThree.jpg" alt="Banner Image" />
+            <img src="./assets/bannerThree.jpg" alt="Banner Image" />
           </div>
           <div className="image-div">
-            <img src="src/assets/bannerFour.jpg" alt="Banner Image" />
+            <img src="./assets/bannerFour.jpg" alt="Banner Image" />
           </div>
           <div className="image-div">
-            <img src="src/assets/bannerFive.jpg" alt="Banner Image" />
+            <img src="./assets/bannerFive.jpg" alt="Banner Image" />
           </div>
         </Slider>
   );
