@@ -1,0 +1,8 @@
+{
+    "HOME" : "/",
+    "COIN" : "/coins",
+    "ABOUT" : "about-crypto",
+    "CONTACT_US" : "contact-us",
+    "LOGIN" : "user-login",
+    "ERROR" : "/error"
+}
