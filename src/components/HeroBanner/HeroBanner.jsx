@@ -16,7 +16,7 @@ const HeroBanner = () => {
   return (
         <Slider {...settings} className="carousal">
         <div className="image-div">
-            <img src="/crypto-coin/assets/bannerOne.jpg" alt="Banner Image" />
+            <img src="src/assets/bannerOne.jpg" alt="Banner Image" />
           </div>
           <div className="image-div">
             <img src="src/assets/bannerTwo.jpg" alt="Banner Image" />
