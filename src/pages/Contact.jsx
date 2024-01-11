@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { IoClose } from "react-icons/io5";
+import success from "/src/assets/success.png"
 
 const Contact = () => {
   const [timer, setTimer] = useState(8);
@@ -126,7 +127,7 @@ const Contact = () => {
                 </h3>
                 <div className="d-flex justify-content-center">
                   <div className="success-img">
-                    <img src="src/assets/success.png" width="100%" />
+                    <img src={success} width="100%" />
                   </div>
                 </div>
                 <h5 className="mt-3 text-dark fw-bold">
