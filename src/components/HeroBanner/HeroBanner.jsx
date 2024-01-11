@@ -1,6 +1,11 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import bannerOne from "/src/assets/bannerOne.jpg"
+import bannerTwo from "/src/assets/bannerTwo.jpg"
+import bannerThree from "/src/assets/bannerThree.jpg"
+import bannerFour from "/src/assets/bannerFour.jpg"
+import bannerFive from "/src/assets/bannerFive.jpg"
 
 const HeroBanner = () => {
   const settings = {
@@ -16,19 +21,19 @@ const HeroBanner = () => {
   return (
         <Slider {...settings} className="carousal">
         <div className="image-div">
-            <img src="src/assets/bannerOne.jpg" alt="Banner Image" />
+            <img src={bannerOne} alt="Banner Image" />
           </div>
           <div className="image-div">
-            <img src="src/assets/bannerTwo.jpg" alt="Banner Image" />
+            <img src={bannerTwo} alt="Banner Image" />
           </div>
           <div className="image-div">
-            <img src="src/assets/bannerThree.jpg" alt="Banner Image" />
+            <img src={bannerThree} alt="Banner Image" />
           </div>
           <div className="image-div">
-            <img src="src/assets/bannerFour.jpg" alt="Banner Image" />
+            <img src={bannerFour} alt="Banner Image" />
           </div>
           <div className="image-div">
-            <img src="src/assets/bannerFive.jpg" alt="Banner Image" />
+            <img src={bannerFive} alt="Banner Image" />
           </div>
         </Slider>
   );
